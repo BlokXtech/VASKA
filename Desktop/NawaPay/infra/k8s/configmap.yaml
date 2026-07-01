@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nawapay-config
+data:
+  NODE_ENV: "production"
+  PORT: "4100"
+  CORS_ORIGIN: "https://app.nawapay.example"
